@@ -3,21 +3,6 @@
 using namespace std;
 vector<string> inventory;
 
-/*int Fac(int n)
-    {
-        if((n==1)||(n==0))return 1;
-        int f=1;
-        for(int i=1;i<=n;i++)
-            {
-                  f=f*i;
-            }
-            return f;
-    }
-
-int nPr(int n)
-{
-    return (Fac(n)/Fac(n-n));
-}*/
 
 void RecPermute(string soFar, string rest)
 {
